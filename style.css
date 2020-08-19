@@ -7,10 +7,12 @@
    }
   
   h1 { 
-  font-size:6vw;
+  font-size:4.5vw;
+  line-height:4vw;
+
    }
   p {
-  font-size:1.5vw;
+  font-size:1.3vw;
    }
   
   a:link {
@@ -24,8 +26,8 @@
   text-decoration: none;
    }
   ul {
-  font-size:1.4vw;
-  line-height:2vw;
+  font-size:1.3vw;
+  line-height:1.5vw;
   }
   
   button {

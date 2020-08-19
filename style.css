@@ -1,0 +1,51 @@
+*{
+    font-family: Bahnschrift, Arial, sans-serif;
+    color: white
+  }
+  
+  body {background-color: black
+   }
+  
+  h1 { 
+  font-size:6vw;
+   }
+  p {
+  font-size:1.5vw;
+   }
+  
+  a:link {
+  text-decoration: none;
+   }   
+  a:visited {
+  text-decoration: none;
+   }
+  a:hover {
+  color: Chartreuse;
+  text-decoration: none;
+   }
+  ul {
+  font-size:1.4vw;
+  line-height:2vw;
+  }
+  
+  button {
+    background-color: black;
+    border:none;
+    color: white;
+    padding: 10vw 15vw;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size:larger;
+  }
+  button:hover {
+    background-color: black;
+    border:dotted;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    font-size:larger;
+  }
+  

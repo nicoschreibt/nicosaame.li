@@ -3,7 +3,9 @@
     color: white
   }
   
-  body {background-color: black
+  body {
+    background-color: black;
+    cursor: url(velo.png);
    }
   
   h1 { 
@@ -50,7 +52,3 @@
     cursor: pointer;
     font-size:larger;
   }
-  
-  input, textarea {
-    cursor: url(velo.png);
-}

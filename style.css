@@ -51,3 +51,6 @@
     font-size:larger;
   }
   
+  input, textarea {
+    cursor: url(velo.png);
+}

@@ -1,28 +1,49 @@
-*{
-    font-family: Bahnschrift, Arial, sans-serif;
-    color: white;
-    cursor: url(cursor.cur), auto;
-  }
-  body {
-    background-color: black;
-   }
-  head {
-    cursor: url(cursor.cur), auto;
-  }
-  h1 { 
-  font: size 35px;;
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 2;
+  margin: 2;
   cursor: url(cursor.cur), auto;
-   }
-  p {
-  font: size 20px;;
-   }
-  a:link {
+
+}
+body {
+  font-family: Bahnschrift, Arial, sans-serif;
+  color: white;
+  background-color: black;
+ }
+h1 { 
+font: size 100px;;
+ }
+p {
+font: size 20px;
+color: white;
+ }
+a:link {
+ color: white;
+text-decoration: none;
+ }   
+a:visited {
+ color: white;
+ text-decoration: none;
+ }
+a:hover {
+color: rgb(255, 0, 240);
+text-decoration: none;
+ }
+
+ .fa {
+  padding: 2;
+  font-size: 30px;
+  width: 50px;
   text-decoration: none;
-   }   
-  a:visited {
-  text-decoration: none;
-   }
-  a:hover {
-  color: rgb(255, 0, 240);
-  text-decoration: none;
-   }
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}

@@ -1,22 +1,22 @@
 *{
     font-family: Bahnschrift, Arial, sans-serif;
-    color: white
+    color: white;
+    cursor: url(cursor.cur), auto;
   }
-  
   body {
     background-color: black;
-    cursor: url(velo.cur);
    }
-  
+  head {
+    cursor: url(cursor.cur), auto;
+  }
   h1 { 
   font-size:4.5vw;
   line-height:4vw;
-
+  cursor: url(cursor.cur), auto;
    }
   p {
   font-size:1.3vw;
    }
-  
   a:link {
   text-decoration: none;
    }   
@@ -24,31 +24,10 @@
   text-decoration: none;
    }
   a:hover {
-  color: rgb(255, 0, 234);
+  color: rgb(255, 0, 240);
   text-decoration: none;
    }
   ul {
   font-size:1.3vw;
   line-height:1.5vw;
-  }
-  
-  button {
-    background-color: black;
-    border:none;
-    color: white;
-    padding: 10vw 15vw;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    font-size:larger;
-  }
-  button:hover {
-    background-color: black;
-    border:dotted;
-    color: white;
-    padding: 12px 20px;
-    text-align: center;
-    display: inline-block;
-    cursor: pointer;
-    font-size:larger;
   }

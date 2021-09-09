@@ -10,12 +10,11 @@
     cursor: url(cursor.cur), auto;
   }
   h1 { 
-  font-size:4.5vw;
-  line-height:4vw;
+  font: size 30px;;
   cursor: url(cursor.cur), auto;
    }
   p {
-  font-size:1.3vw;
+  font: size 16px;;
    }
   a:link {
   text-decoration: none;
@@ -27,12 +26,3 @@
   color: rgb(255, 0, 240);
   text-decoration: none;
    }
-  ul {
-  font-size:1.3vw;
-  line-height:1.5vw;
-  }
-
-  li{
-    font-size:1.3vw;
-    line-height:1.5vw;
-  }
